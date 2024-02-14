@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'CASlalom';
+  font-display: swap;
+  src: url('../fonts/CASlalom-Regular.woff') format('woff'), url('../fonts/CASlalom-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CASlalom';
+  font-display: swap;
+  src: url('../fonts/CASlalom-Heavy.woff') format('woff'), url('../fonts/CASlalom-Heavy.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CASlalomCondensed';
+  font-display: swap;
+  src: url('../fonts/CASlalomCondensed-Heavy.woff') format('woff'), url('../fonts/CASlalomCondensed-Heavy.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}

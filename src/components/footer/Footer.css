@@ -1,0 +1,43 @@
+@import '../../styles/vars.css';
+
+footer {
+	background: var(--main-color);
+  padding: 40px 0;
+}
+
+footer.wrapper {
+  align-items: center;
+}
+
+.footer__left {
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: 800;
+}
+.footer__left p {
+  display: flex;
+  align-items: center;
+	gap: 10px;
+}
+
+.social__list {
+  display: flex;
+  gap: 25px;
+}
+
+.social__item {
+  transition: all 0.3s cubic-bezier(0.22, 0.68, 0, 1.71);
+}
+.social__item:hover {
+  transform: translateY(-7px);
+}
+
+.social__link {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+
+.social__link .icon {
+	width: 30px;
+}

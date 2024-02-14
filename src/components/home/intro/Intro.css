@@ -1,0 +1,46 @@
+@import '../../../styles/vars';
+
+.intro-section {
+  padding: 0;
+}
+
+.intro {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  background: url('./intro.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--text-color);
+}
+.intro a {
+  color: var(--second-color);
+}
+
+.intro__title,
+.intro__subtitle {
+  text-align: center;
+  text-shadow: var(--main-color) 1px 0 20px;
+}
+
+.intro__title {
+  text-transform: uppercase;
+  font-size: 80px;
+  font-weight: 800;
+  padding-top: 140px;
+}
+
+.intro__subtitle {
+  font-size: 40px;
+}
+
+.intro .intro__btn {
+  margin-top: 250px;
+  background: var(--main-color);
+  color: var(--second-color);
+}
+.intro__btn:hover {
+  background: var(--second-color);
+  color: var(--main-color);
+}

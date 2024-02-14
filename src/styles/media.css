@@ -1,0 +1,67 @@
+@media (max-width: 1030px) {
+  .about-item {
+    flex-direction: column;
+  }
+  .about-item .about-item__img {
+		margin: 0 auto 20px auto;
+  }
+}
+@media (max-width: 800px) {
+  .wrapper .burger-menu__icon {
+    display: block;
+  }
+  .wrapper .nav {
+    display: none;
+  }
+  .wrapper .logo {
+    width: 170px;
+  }
+  header .burger-menu {
+    display: block;
+  }
+  .menu .menu__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer .footer-container {
+    padding: 0 25px;
+  }
+}
+@media (max-width: 430px) {
+  .menu .menu__list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .menu .menu__item-img {
+    width: 250px;
+    height: auto;
+  }
+  .intro__title {
+    margin-bottom: 20px;
+  }
+  .intro .intro__btn {
+    margin-top: 200px;
+  }
+  .abouit__info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .abouit__info .about__info-btn {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+	.about-item .about-item__img {
+		margin: 0 0 20px 0;
+  }
+  .delivery-container .delivery__place {
+    margin-left: 0;
+    flex-direction: column;
+  }
+  .delivery-info {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .footer-container .wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}

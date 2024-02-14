@@ -1,0 +1,28 @@
+@import '../../../styles/vars.css';
+
+.about__info {
+  background: url("./about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 700px;
+}
+
+.about__info-descr {
+	text-align: center;
+	padding-top: 200px;
+  font-size: 40px;
+  font-family: "CASlalomCondensed";
+	text-shadow: var(--main-color) 1px 0 20px;
+}
+
+.about__info .about__info-btn {
+	margin-top: 200px;
+  background: var(--main-color);
+  color: var(--second-color);
+}
+.about__info-btn:hover {
+  background: var(--second-color);
+  color: var(--main-color);
+}
