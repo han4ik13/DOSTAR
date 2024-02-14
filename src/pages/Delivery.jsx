@@ -27,12 +27,12 @@ export const Delivery = () => {
 				<div className="delivery-info">
 					<div className="delivery__item">
 						<h1 className="delivery-item__title">WOLT</h1>
-						<img src="./wolt.png" alt="" className="delivery-item__img"/>
+						<img src="./wolt.webp" alt="" className="delivery-item__img"/>
 						<a href="#"><button className='btn delivery-item__btn'>Заказать</button> </a>
 					</div>
 					<div className="delivery__item">
 						<h1 className="delivery-item__title">САМОВЫВОЗ</h1>
-						<img src="./delivery.jpg" alt="" className="delivery-item__img"/>
+						<img src="./delivery.webp" alt="" className="delivery-item__img"/>
 						<a id='change' href="https://habr.com/ru/articles/247857/" target='_blank'><button className='btn delivery-item__btn'>Заказать</button></a>
 					</div>
 				</div>
