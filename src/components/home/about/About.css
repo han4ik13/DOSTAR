@@ -1,7 +1,7 @@
 @import '../../../styles/vars.css';
 
 .about__info {
-  background: url("./about.jpg");
+  background: url("../../../img/about.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

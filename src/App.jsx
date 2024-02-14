@@ -13,7 +13,7 @@ import './styles/main.css'
 function App() {
   return (
     <>
-		<Router>
+		<Router basename='/DoStar'>
 			<ScrollToTop />
 			<Header/>
 				<Routes>

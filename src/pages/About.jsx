@@ -3,7 +3,7 @@ export const About = () => {
 		<section className="about-section">
 			<div className="container about-container">
 				<div className="about-item">
-					<img className='about-item__img' src="/dima.jpg" alt=""/>
+					<img className='about-item__img' src="./dima.jpg" alt=""/>
 					<div className="about-item__info">
 						<h1 className="about-item__title">Немного истории о создании нашей кофейни</h1>
 						<p className="about-item__descr">
