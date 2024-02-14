@@ -7,8 +7,6 @@ export const BurgerMenu = () => {
 	const activeLink = 'nav__link active';
 	const normalLink = 'nav__link';
 
-	console.log(document.querySelector('.body'));
-
 	function burgerBtn () {
 			document.querySelector('.body').classList.toggle('active');
 			document.querySelector('.burger-menu__icon').classList.toggle('active');
