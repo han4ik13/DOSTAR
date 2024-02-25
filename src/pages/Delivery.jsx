@@ -5,7 +5,7 @@ export const Delivery = () => {
 			arr[0].classList.add('active');
 			if (arr[0].classList.value == 'btn delivery__btn active') {
 				arr[1].classList.remove('active');
-				document.getElementById('change').href = 'https://habr.com/ru/articles/247857/';
+				document.getElementById('change').href = 'https://wolt.com/ru/kaz/almaty/restaurant/dostar-coffee-makataeva';
 			}
 	}
 		function secondBtn () {
@@ -13,7 +13,7 @@ export const Delivery = () => {
 			arr[1].classList.add('active');
 			if (arr[1].classList.value == 'btn delivery__btn active') {
 				arr[0].classList.remove('active');
-				document.getElementById('change').href = 'https://boxicons.com/?query=star';
+				document.getElementById('change').href = 'https://wolt.com/ru/kaz/almaty/restaurant/dostar-coffee';
 			}
 	}
 
@@ -28,13 +28,13 @@ export const Delivery = () => {
 					<div className="delivery__item">
 						<h1 className="delivery-item__title">WOLT</h1>
 						<img src="./wolt.webp" alt="" className="delivery-item__img"/>
-						<a href="#"><button className='btn delivery-item__btn'>Заказать</button> </a>
+						<a id='change' href="https://wolt.com/ru/kaz/almaty/restaurant/dostar-coffee-makataeva" target='_blank'><button className='btn delivery-item__btn'>Заказать</button> </a>
 					</div>
-					<div className="delivery__item">
+					{/* <div className="delivery__item">
 						<h1 className="delivery-item__title">САМОВЫВОЗ</h1>
 						<img src="./delivery.webp" alt="" className="delivery-item__img"/>
 						<a id='change' href="https://habr.com/ru/articles/247857/" target='_blank'><button className='btn delivery-item__btn'>Заказать</button></a>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>
