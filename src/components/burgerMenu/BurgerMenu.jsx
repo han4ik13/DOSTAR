@@ -28,7 +28,7 @@ export const BurgerMenu = () => {
 					<ul className="list-reset burger-menu__nav">
 						<li className="burger-menu__item"><NavLink to="/" className={({ isActive }) => isActive ? activeLink : normalLink}>Главная</NavLink></li>
 						<li className="burger-menu__item"><NavLink to="/About" className={({ isActive }) => isActive ? activeLink : normalLink}>История</NavLink></li>
-						<li className="burger-menu__item"><NavLink to="/Menu" className={({ isActive }) => isActive ? activeLink : normalLink}>Меню</NavLink></li>
+						<li className="burger-menu__item"><NavLink to="https://do-star-konaev.ps.me/" className={({ isActive }) => isActive ? activeLink : normalLink}>Меню</NavLink></li>
 						<li className="burger-menu__item"><NavLink to="/Delivery" className={({ isActive }) => isActive ? activeLink : normalLink}>Доставка</NavLink></li>
 						{/* <li className="burger-menu__item"><NavLink to="/Contact" className={({ isActive }) => isActive ? activeLink : normalLink}>Контакты</NavLink></li> */}
 					</ul>

@@ -16,7 +16,8 @@ export const Footer = () => {
 						<ul className="list-reset social__list">
 							<li className="social__item">
 								<a href="https://www.instagram.com/do.star.coffee/" target='_blank' className="social__link">
-									<box-icon size='md' name='instagram-alt' type='logo' color='#f4c1dd' ></box-icon>
+									{/* <box-icon size='md' name='instagram-alt' type='logo' color='#f4c1dd' ></box-icon> */}
+									<box-icon size='md' color='#f4c1dd' type='logo' name='instagram-alt'></box-icon>
 								</a>
 							</li>
 							<li className="social__item">
