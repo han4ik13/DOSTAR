@@ -9,17 +9,6 @@ footer.wrapper {
   align-items: center;
 }
 
-.footer__left {
-  color: var(--text-color);
-  font-size: 20px;
-  font-weight: 800;
-}
-.footer__left p {
-  display: flex;
-  align-items: center;
-	gap: 10px;
-}
-
 .social__list {
   display: flex;
   gap: 25px;

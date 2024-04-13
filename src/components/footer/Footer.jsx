@@ -11,13 +11,7 @@ export const Footer = () => {
 		<footer>
 			<div className="container footer-container">
 				<div className="wrapper">
-					<div className="footer__left">
 						<NavLink className="logo" to="/"><img src={logo} alt="Logo"/></NavLink>
-						<p>
-						<box-icon name='time' type='solid' color='#f4c1dd' ></box-icon>
-							7:30am - 8:00pm
-						</p>
-					</div>
 					<div className="footer__right">
 						<ul className="list-reset social__list">
 							<li className="social__item">
